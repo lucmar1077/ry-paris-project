@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "nimbus-sans", Helvetica, sans-serif;
+    font-family: "museo-sans", Helvetica, sans-serif;
 }
 
 header nav {
@@ -20,14 +20,35 @@ header nav img {
 
 header nav ul {
     display: flex;
-    gap: 16px;
+    gap: 20px;
 }
 
 header nav ul li {
     list-style-type: none;
+    font-size: 1.1em;
 }
 
 header nav ul li a {
     text-decoration: none;
     color: #222;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/hero-image.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* Change the font for this later (to something that's softer when bolder) */
+.overlaying-text {
+    background-color: whitesmoke;
+    padding: 0.5em;
+    font-family: "museo-sans-display";
+    font-weight: 800;
+    font-size: 2em;
+    transform: translate(0, -4em);
 }
