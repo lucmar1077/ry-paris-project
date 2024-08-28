@@ -168,6 +168,7 @@ header nav ul li a {
 .where-track-images {
     display: flex;
     flex-direction: column;
+    margin-bottom: 3%;
 }
 
 .where-image {
@@ -183,3 +184,33 @@ header nav ul li a {
     font-size: 1.1em;
     margin: 5% 0;
 }
+
+footer {
+    background-color: #f1a536;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+footer div {
+    color: #222;
+}
+
+footer ul {
+    display: flex;
+    gap: 20px;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #222;
+}
+
+/* TO-DO: Add some animations when hovering over certain elements (the underline
+animation for nav elements and pop up effect for other elements),
+create the second page obviously */
