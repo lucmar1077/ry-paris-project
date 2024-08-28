@@ -99,6 +99,8 @@ header nav ul li a {
 
 .healthy-recipes {
     background-color: #DADFEA;
+    padding-top: .01%;
+    padding-bottom: 2%;
 }
 
 .healthy-container {
@@ -129,14 +131,16 @@ header nav ul li a {
 }
 
 .healthy-image {
-    border-radius: 4px;
+    border-radius: 4px 4px 0 0;
     height: 15em;
     width: 20em;
     object-fit: cover;
 }
 
 .healthy-track-images p {
+    border-radius: 0 0 4px 4px;
+    padding: 5%;
+    background-color: #fff;
     text-align: center;
     font-size: 1.1em;
-    margin: 5% 0;
 }
