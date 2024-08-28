@@ -96,3 +96,47 @@ header nav ul li a {
     font-size: 1.1em;
     margin: 5% 0;
 }
+
+.healthy-recipes {
+    background-color: #DADFEA;
+}
+
+.healthy-container {
+    margin: 2.5% 7%;
+}
+
+.healthy-header {
+    font-family: "museo-sans-display";
+    font-size: 2em;
+    margin-bottom: 1%;
+}
+
+.healthy-caption {
+    font-size: 1.3em;
+}
+
+.healthy-track {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5%;
+    flex-wrap: wrap;
+}
+
+.healthy-track-images {
+    display: flex;
+    flex-direction: column;
+}
+
+.healthy-image {
+    border-radius: 4px;
+    height: 15em;
+    width: 20em;
+    object-fit: cover;
+}
+
+.healthy-track-images p {
+    text-align: center;
+    font-size: 1.1em;
+    margin: 5% 0;
+}
