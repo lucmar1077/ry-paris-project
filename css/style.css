@@ -52,3 +52,43 @@ header nav ul li a {
     font-size: 2em;
     transform: translate(0, -4em);
 }
+
+.everyday-container {
+    margin: 2.5% 7%;
+}
+
+.everyday-header {
+    font-family: "museo-sans-display";
+    font-size: 2em;
+    margin-bottom: 1%;
+}
+
+.everyday-caption {
+    font-size: 1.3em;
+}
+
+/* rename classes later for better readability */
+.track {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+
+.track-images {
+    display: flex;
+    flex-direction: column;
+}
+
+.everyday-image {
+    height: 15em;
+    width: 25em;
+    object-fit: cover;
+}
+
+.track-images p {
+    text-align: center;
+    font-size: 1.1em;
+    margin: 5% 0;
+}
