@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "museo-sans", Helvetica, sans-serif;
+    /* outline: 2px solid red; */
 }
 
 header nav {
@@ -45,6 +46,7 @@ header nav ul li a {
 
 /* Change the font for this later (to something that's softer when bolder) */
 .overlaying-text {
+    border-radius: 4px;
     background-color: whitesmoke;
     padding: 0.5em;
     font-family: "museo-sans-display";
@@ -68,7 +70,8 @@ header nav ul li a {
 }
 
 /* rename classes later for better readability */
-.track {
+/* even better, use element selectors if possible  */
+.everyday-track {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,18 +79,19 @@ header nav ul li a {
     flex-wrap: wrap;
 }
 
-.track-images {
+.everyday-track-images {
     display: flex;
     flex-direction: column;
 }
 
 .everyday-image {
+    border-radius: 4px;
     height: 15em;
     width: 25em;
     object-fit: cover;
 }
 
-.track-images p {
+.everyday-track-images p {
     text-align: center;
     font-size: 1.1em;
     margin: 5% 0;
