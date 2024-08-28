@@ -44,7 +44,6 @@ header nav ul li a {
     align-items: flex-end;
 }
 
-/* Change the font for this later (to something that's softer when bolder) */
 .overlaying-text {
     border-radius: 4px;
     background-color: whitesmoke;
@@ -55,29 +54,6 @@ header nav ul li a {
     transform: translate(0, -4em);
 }
 
-/* 
-d
-
-
-
-
-
-
-
-
-
-
-
-
-d
-
-
-
-d
-
-d
-
-*/
 .everyday-container {
     margin: 2.5% 7%;
 }
@@ -92,8 +68,6 @@ d
     font-size: 1.3em;
 }
 
-/* rename classes later for better readability */
-/* even better, use element selectors if possible  */
 .everyday-track {
     display: flex;
     justify-content: center;
@@ -121,7 +95,7 @@ d
 }
 
 .healthy-recipes {
-    background-color: #DADFEA;
+    background-color: #dadfea;
     padding-top: .01%;
     padding-bottom: 2%;
 }
@@ -175,11 +149,12 @@ d
 .where-header {
     font-family: "museo-sans-display";
     font-size: 2em;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
 }
 
 .where-caption {
     font-size: 1.3em;
+    margin-bottom: 2%;
 }
 
 .where-track {
@@ -196,6 +171,7 @@ d
 }
 
 .where-image {
+    border: solid 4px #dadfea;
     border-radius: 4px;
     height: 15em;
     width: 25em;
